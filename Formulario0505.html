@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><font color=red>Formulário de interação</font></h1>
+    <form action="https://api.sheetmonkey.io/form/u9YpUNN9qNP4iDqkT7WRCW" method="post">
+      <p>
+        <label>Digite seu nome: </label>
+        <input placeholder="Digite aqui" type="text" required="required" value="name"name="Name">
+      </p>
+      <p>
+        <label>Entre com a sua mensagem</label><br>
+        <textarea rows="5"cois="30" name="mensagem inserida pelo usúario"
+        required="required" placeholder="Digite até 500 caractéres"></textarea>
+      </p>
+      <p>
+        <label>Digite seu endereço</label>
+        <input placeholder="Digite aqui" type="text" required="required" value="rua e número" name="Rua e número">
+      </p>
+      <p>
+        <label>Digite o bairro</label>
+        <input placeholder="Digite aqui" type="text" required="required" value="bairro" name="Bairro">
+      </p>
+      <p>
+        <label>Digite a cidade</label>
+        <input placeholder="Digite aqui" type="text" required="required" value="cidade" name="Cidade">
+      </p>
+      <p>
+         <!---- checkbox -->
+        <ol>
+            <label>Escolha o(s) modelo(s) de trabalho:><br>
+        <ol>
+                <li><input type="checkbox"value="Opç1"name="vlr presencial">Presencial</li>
+                <li><input type="checkbox"value="Opç2"name="vlr presencial">Remoto</li>
+                <li><input type="checkbox"checked="checked value=Opç3"name="vlr_Híbrido">Híbrido</li>
+        </ol>
+       </p>
+      <input type="submit" value="Enviar">
+    </form>
+    </body>
+</html>
